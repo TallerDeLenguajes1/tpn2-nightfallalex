@@ -8,13 +8,17 @@ int main()
 {
     int f,c;
     double mt[N][M];
+    int *pMatriz = NULL;
+    pMatriz = (double *) mt;
+
     //…
+    
     for(f = 0;f<N; f++)
     {
             for(c = 0;c<M; c++)
             {
            
-            printf("%lf", mt[f][c]);
+            printf("%lf", *(pMatriz++));
             
             }
         
