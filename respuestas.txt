@@ -1,0 +1,21 @@
+# Trabajo Practico Nº2
+
+## Punto 2-f)
+
+### ¿Puede ver el archivo tp2_1_2.cpp?
+No, el archivo tp2_1_2.c no se puede ver en la carpeta donde se inicio el repositorio (branch master)
+
+### ¿Por que?
+porque "viven" en 2 ramas distintas y separadas, hasta que se realiza el marge correspondiente
+
+## Punto 2-i)
+
+### ¿Qué diferencias nota?
+se pueden apreciar los cambios que se van realizando en cada rama del proyecto.
+en master: solo figuran los archivos .gitignore y tp2_1_1.c
+en opcion_2: figuran los archivos anteriores y tambien el archivo tp2_1_2.c
+
+## Punto 2-j)
+
+### Luego utilice el comando gitk –all para ver los cambios, ¿Qué nota?
+se combinaron las rama master con la rama opcion_2, a nivel local puedo ver todos los archivos en la carpeta, y en GitHub puedo ver todos los archivos en la pestaña "Code"
